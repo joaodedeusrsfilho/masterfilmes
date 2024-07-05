@@ -1,0 +1,76 @@
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.listaFilmes{
+    margin: 0 auto;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 8px;
+}
+
+.listaFilmes h1{
+    margin: 14px 0;
+}
+
+.listaFilmes img{
+    border-radius: 8px;
+    width: 800px;
+    max-width: 100%;
+    max-height: 340px;
+    object-fit: cover;
+    
+}
+
+.listaFilmes h3{
+    margin: 14px 0;
+}
+
+.listaFilmes span{
+    margin: 8px 0;
+}
+
+.areaButtons button{
+    margin-right: 12px;
+    margin-top: 0;
+    margin-left: 0;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    outline: 0;
+    padding: 0px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    
+           
+}
+
+
+.areaButtons a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #F0F0F0;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.areaButtons a:hover{
+    background: none;
+}
+
+.areaButtons{
+    display: flex;
+    
+}
+
+
+
+
